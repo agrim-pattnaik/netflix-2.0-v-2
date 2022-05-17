@@ -154,10 +154,10 @@ function Modal() {
           />
           <div className="absolute bottom-10 flex w-full items-center justify-between px-10">
             <div className="flex space-x-2">
-              <button className="flex items-center gap-x-2 rounded bg-white px-8 text-xl font-bold text-black transition hover:bg-[#e6e6e6]">
+            <a> <button herf={'https://moviesjoy.plus/watch-movie/watch-doctor-strange-in-the-multiverse-of-madness-66671.8297842'} className="flex items-center gap-x-2 rounded bg-white px-8 text-xl font-bold text-black transition hover:bg-[#e6e6e6]">
                 <FaPlay className="h-7 w-7 text-black" />
                 Play
-              </button>
+              </button> </a>
               <button className="modalButton" onClick={handleList}>
                 {addedToList ? (
                   <CheckIcon className="h-7 w-7" />
